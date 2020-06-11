@@ -39,11 +39,6 @@ while i<10:
     i+=1
 df = pd.DataFrame(final_data)
 print('data collected')
-df
-
-
-# In[ ]:
-
 
 labels = ['Name and speciality','Place ID', 'Latitude', 'Longitude', 'Ratings', 'Abouts', 'Address']
 df = pd.DataFrame.from_records(final_data, columns=labels)
